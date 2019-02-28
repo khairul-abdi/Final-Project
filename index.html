@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="img/a.png">
+
+  <title>Khairul Abdi</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- Custom styles for this template -->
+  <link href="dist/css/carousel.css" rel="stylesheet">
+</head>
+<!-- NAVBAR
+================================================== -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Form Contact</h4>
+      </div>
+      <div class="modal-body">
+
+
+
+
+
+        <!-- <form method="POST" action="https://formspree.io/kabdi384@gmail.com">
+          <input type="email" name="email" placeholder="Your email">
+          <textarea name="message" placeholder="Test Message"></textarea>
+          <button type="submit">Send Test</button>
+        </form> -->
+
+        <!-- <form action="https://formspree.io/kabdi384@gmail.com" method="POST">
+          <input type="text" name="name">
+          <input type="email" name="_replyto">
+          <input type="submit" value="Send">
+        </form> -->
+
+
+        <form action="https://formspree.io/kabdi384@gmail.com" method="POST">
+          <div class="form-group">
+            <label for="nama">Nama</label>
+            <input type="text" class="form-control" placeholder="Masukkan nama">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" placeholder="Masukkan email">
+          </div>
+          <div class="form-group">
+            <label for="telp">No. Telepon</label>
+            <input type="tel" class="form-control" placeholder="Masukkan no. telepon">
+          </div>
+          <select class="from-control">
+            <option>--Pilih Kategori --</option>
+            <option>Web Design</option>
+            <option>Web Development</option>
+          </select>
+
+          <div class="form-group">
+            <label for="pesan">Pesan</label>
+            <textarea name="message" class="form-control" rows="10" placeholder="masukkan pesan"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<body>
+  <div class="navbar-wrapper">
+    <div class="container">
+
+      <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+              aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Final Project </a> </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="isi/index.html">About</a></li>
+              <li><a href="" data-toggle="modal" data-target="#myModal">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="isi/kalkulator/index.html">Kalkulator</a></li>
+                  <li><a href="https://code.visualstudio.com/">VS.Code</a></li>
+                  <li><a href="https://www.javascript.com/">JavaScript</a></li>
+
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    </div>
+  </div>
+
+
+  <!-- Carousel
+    ================================================== -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+          alt="First slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Menuju Form Contact Menggunakan Modal</h1>
+            <p>Isi Biodata Anda dan Kirim Pesan Kepada kami baik itu saran, kritik yang membangun website ini</p>
+
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+              Contact
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+          alt="Second slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Kalkulator Menggunakan Javascript</h1>
+            <p>Jika Anda ingin mengoperasikan matematika klik tombol di bawah ini</p>
+            <p><a class="btn btn-lg btn-primary" href="isi/kalkulator/index.html" role="button">Kalkulator</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+          alt="Third slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Profil Pribadi </h1>
+            <p>Jika anda ingin melihat lebih detail si pembuat website klik tombol di bawah ini</p>
+            <p><a class="btn btn-lg btn-primary" href="isi/index.html" role="button">Profile</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div><!-- /.carousel -->
+
+
+  <!-- Marketing messaging and featurettes
+    ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="img-circle" src="img/vs.png" alt="Generic placeholder image" width="140" height="140">
+        <h2>Visual Studi Code</h2>
+        <p>Jika anda ingin membutuhkan Editor terbaik, Visual Studio Code salah satu editor terbai.....</p>
+        <p><a class="btn btn-default" href="https://code.visualstudio.com/" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="img-circle" src="img/js.png" alt="Generic placeholder image" width="140" height="140">
+        <h2>javascript</h2>
+        <p>Jika anda ingin dokumentasi javascript dapat mengklik tombol view detail di bawah.....</p>
+        <p><a class="btn btn-default" href="https://www.javascript.com/" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="img-circle" src="img/kalkulator.PNG" alt="Generic placeholder image" width="140" height="140">
+        <h2>Kalkulator Javascript</h2>
+        <p>Jika Anda ingin mengoperasikan matematika klik tombol di bawah ini</p>
+        <p><a class="btn btn-default" href="isi/kalkulator/index.html" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Contoh membuat table dari JSON <span class="text-muted">Data Table</span></h2>
+        <p class="lead">Tutorial ini menggunakan JSON Sebagai Data yang di tampilkan kedalam HTML menggunakan
+          Javascript</p>
+        <p><a class="btn btn-default" href="isi/json/bismillah2.html" role="button">View details &raquo;</a></p>
+      </div>
+      <div class="col-md-5">
+
+        <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 col-md-push-5">
+        <h2 class="featurette-heading">Profile <span class="text-muted">See for yourself.</span></h2>
+        <p class="lead">Jika ingin melihat profile pembuat website dapat mengklik tombol detail</p>
+        <p><a class="btn btn-default" href="isi/json/bismillah2.html" role="button">View details &raquo;</a></p>
+      </div>
+      <div class="col-md-5 col-md-pull-7">
+        <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+      </div>
+    </div>
+
+    <!-- /END THE FEATURETTES -->
+
+
+    <!-- FOOTER -->
+    <footer>
+      <p class="pull-right"><a href="#">Back to top</a></p>
+      <p>&copy; Khairul Abdi Dongoran | 2019 </a></p>
+    </footer>
+
+  </div><!-- /.container -->
+
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="dist/assets/jquery.min.js"><\/script>')
+  </script>
+  <script src="dist/js/bootstrap.min.js"></script>
+  <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+  <script src="dist/assets/holder.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="dist/assets/ie10-viewport-bug-workaround.js"></script>
+</body>
+
+</html>
